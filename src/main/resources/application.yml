@@ -2,3 +2,15 @@ server:
   port: 8123
   servlet:
     context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/api_db
+    username: root
+    password: 123456
+
+api:
+  client:
+    access-key: mxf
+    secret-key: abcdefg
